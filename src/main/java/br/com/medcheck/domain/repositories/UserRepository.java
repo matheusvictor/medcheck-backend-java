@@ -1,7 +1,7 @@
 package br.com.medcheck.domain.repositories;
 
 import br.com.medcheck.application.dto.UserResponseDTO;
-import br.com.medcheck.domain.models.User;
+import br.com.medcheck.domain.entities.User;
 import br.com.medcheck.exception.UserNotFoundException;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

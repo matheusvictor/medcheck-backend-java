@@ -1,4 +1,4 @@
-package br.com.medcheck.domain.models;
+package br.com.medcheck.domain.entities;
 
 public class FinanceManager extends User {
 

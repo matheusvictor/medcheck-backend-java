@@ -1,4 +1,4 @@
-package br.com.medcheck.domain.models;
+package br.com.medcheck.domain.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

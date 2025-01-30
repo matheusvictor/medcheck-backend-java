@@ -1,4 +1,4 @@
-package br.com.medcheck.domain.models;
+package br.com.medcheck.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @RequiredArgsConstructor
-public class ExternalUser extends User {
+public class Admin extends User {
 
-    private Long id;
 
 }
