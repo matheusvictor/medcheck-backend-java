@@ -1,19 +1,26 @@
 package br.com.medcheck.domain.entities;
 
-import lombok.AllArgsConstructor;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.PrimaryKeyJoinColumn;
+import jakarta.persistence.Table;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
+import java.io.Serializable;
 
 @Getter
 @Setter
-@AllArgsConstructor
-@RequiredArgsConstructor
-public class Doctor extends User {
+@Entity
+@Table(name = "doctors")
+@PrimaryKeyJoinColumn(name = "doctor_id")
+public class Doctor extends User implements Serializable {
 
+    @Column(nullable = false, unique = true)
     private String crm;
+
+    @Column(nullable = false)
     private String specialty;
-    private List<Consultation> consultations;
+
+
 }
