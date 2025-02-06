@@ -1,4 +1,4 @@
-package br.com.medcheck.exception;
+package br.com.medcheck.patient.shared.exception;
 
 public class NotFoundException extends RuntimeException {
 

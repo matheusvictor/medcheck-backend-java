@@ -1,7 +1,5 @@
-package br.com.medcheck.shared;
+package br.com.medcheck.patient.shared.exception;
 
-import br.com.medcheck.exception.BusinessExceptionDTO;
-import br.com.medcheck.exception.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

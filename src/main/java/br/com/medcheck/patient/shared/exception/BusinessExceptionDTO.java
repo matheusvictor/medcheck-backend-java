@@ -1,4 +1,4 @@
-package br.com.medcheck.exception;
+package br.com.medcheck.patient.shared.exception;
 
 import lombok.Getter;
 import lombok.Setter;
