@@ -44,4 +44,27 @@ public class JpaPatient {
         this.bloodType = bloodType;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDocument() {
+        return document;
+    }
+
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public List<String> getConsultations() {
+        return consultations;
+    }
 }

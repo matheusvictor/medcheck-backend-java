@@ -1,11 +1,8 @@
-INSERT INTO users (name, email, password)
-VALUES ('John Doe', 'john.doe@example.com', 'password123');
+INSERT INTO patients (name, age, document, blood_type)
+VALUES ('John Doe', 22, '1234', 'O');
 
-INSERT INTO users (name, email, password)
-VALUES ('Mary Doe', 'mary.doe@example.com', 'password123');
+INSERT INTO patients (name, age, document, blood_type)
+VALUES ('Mary Doe', 35, '4567', 'A');
 
-INSERT INTO doctors (user_id, crm, specialty)
-VALUES (1, '123', 'example');
-
-INSERT INTO doctors (user_id, crm, specialty)
-VALUES (2, '456', 'example');
+INSERT INTO doctors (name, crm)
+VALUES ('Chuck Norris', '9999');
