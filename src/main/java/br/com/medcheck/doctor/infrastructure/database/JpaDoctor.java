@@ -1,4 +1,4 @@
-package br.com.medcheck.doctor.domain.entity;
+package br.com.medcheck.doctor.infrastructure.database;
 
 import jakarta.persistence.*;
 
