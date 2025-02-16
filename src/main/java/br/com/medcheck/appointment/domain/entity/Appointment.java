@@ -1,7 +1,10 @@
 package br.com.medcheck.appointment.domain.entity;
 
+import lombok.Getter;
+
 import java.time.LocalDate;
 
+@Getter
 public class Appointment {
 
     private final Long doctorId;
@@ -14,18 +17,6 @@ public class Appointment {
         this.doctorId = doctorId;
         this.patientId = patientId;
         this.date = LocalDate.now();
-    }
-
-    public Long getDoctorId() {
-        return doctorId;
-    }
-
-    public Long getPatientId() {
-        return patientId;
-    }
-
-    public LocalDate getDate() {
-        return date;
     }
 
 }

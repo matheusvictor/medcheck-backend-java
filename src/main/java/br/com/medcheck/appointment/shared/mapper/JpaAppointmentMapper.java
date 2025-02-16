@@ -1,7 +1,7 @@
 package br.com.medcheck.appointment.shared.mapper;
 
 import br.com.medcheck.appointment.domain.entity.Appointment;
-import br.com.medcheck.appointment.domain.entity.JpaAppointment;
+import br.com.medcheck.appointment.infrastructure.database.JpaAppointment;
 
 public class JpaAppointmentMapper {
 
